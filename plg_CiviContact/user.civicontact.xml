@@ -1,0 +1,24 @@
+<cbinstall version="1.0" type="plugin" group="user">
+	<name>CiviCRM Tab</name>
+	<author>Malcolm Ward, Haley Littlewood</author>
+	<license>* @license link goes here</license>
+	<authorUrl>https://github.com/combrains/civi-cb/</authorUrl>
+	<version>0.1</version>
+	<description>Provides a new profile tab for CiviCRM contact record</description>
+	<files>
+		<filename plugin="user.civicontact">user.civicontact.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<params>
+	</params>
+	<tabs>
+		<tab name="Contact Info" description="" class="getCiviTab" fields="0" position="cb_tabmain" displaytype="html">
+			<params>
+			</params>
+			<fields>
+			</fields>
+		</tab>
+	</tabs>
+	<database>
+	</database>
+</cbinstall>	
